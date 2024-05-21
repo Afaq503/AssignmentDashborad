@@ -5,6 +5,8 @@ import Breadcrumbs from "./components/Breadcrumbs";
 import CardPage from "./page/CardPage";
 import Card2Page from "./page/Card2Page";
 import CustomTable from "./page/CustomTable";
+import Card3Page from "./page/Card3Page";
+import Card4Page from "./page/Card4Page";
 function App() {
   const [isOpen, setIsOpen] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -46,7 +48,8 @@ function App() {
             {/* Your main content goes here */}
             <CardPage/>
             <Card2Page/>
-
+            <Card3Page/>
+            <Card4Page/>
             <CustomTable/>
           </div>
         </div>
